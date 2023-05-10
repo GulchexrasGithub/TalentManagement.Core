@@ -3,10 +3,13 @@
 // Talent Management 
 // ---------------------------------------------------------------
 
-namespace TalentManagement.Core.Models.Users
-{
-    public class Language
-    {
+using System;
 
+namespace TalentManagement.Core.Brokers.Loggings
+{
+    public interface ILoggingBroker
+    {
+        void LogError(Exception exception);
+        void LogCritical(Exception exception);
     }
 }

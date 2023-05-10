@@ -3,8 +3,13 @@
 // Talent Management 
 // ---------------------------------------------------------------
 
-namespace TalentManagement.Core.Brokers.Storages
+namespace TalentManagement.Core.Models.Foundations.Users
 {
-    public partial interface IStorageBroker
-    { }
+    public enum UserDirection
+    {
+        FrontEnd,
+        BackEnd,
+        FullStacke,
+        Desinger
+    }
 }

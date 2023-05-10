@@ -3,7 +3,7 @@
 // Talent Management 
 // ---------------------------------------------------------------
 
-namespace TalentManagement.Core.Models.Users
+namespace TalentManagement.Core.Models.Foundations.Users
 {
     public enum Degree
     {

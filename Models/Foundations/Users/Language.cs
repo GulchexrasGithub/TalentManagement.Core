@@ -3,13 +3,10 @@
 // Talent Management 
 // ---------------------------------------------------------------
 
-namespace TalentManagement.Core.Models.Users
+namespace TalentManagement.Core.Models.Foundations.Users
 {
-    public enum UserDirection
+    public class Language
     {
-        FrontEnd,
-        BackEnd,
-        FullStacke,
-        Desinger
+
     }
 }
