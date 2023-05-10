@@ -20,3 +20,4 @@ namespace TalentManagement.Core
         }
     }
 }
+//I cannot undrestand
