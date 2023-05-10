@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace TalentManagement.Core.Brokers.Storages
 {
-    public partial interface IStotageBroker
+    public partial interface IStorageBroker
     {
         ValueTask<User> InsertUserAsync(User user);
         IQueryable<User> SelectAllUsers();
