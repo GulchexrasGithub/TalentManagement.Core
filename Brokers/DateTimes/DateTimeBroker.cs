@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Tarteeb.Api.Brokers.DateTimes
+namespace TalentManagement.Core.Brokers.DateTimes
 {
     public class DateTimeBroker : IDateTimeBroker
     {
